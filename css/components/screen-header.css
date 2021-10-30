@@ -1,0 +1,26 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.screen-header__title {
+  font-size: 40px;
+}
+
+.screen-header__list {
+  display: flex;
+  font-size: 20px;
+}
+
+.screen-header__btn {
+  margin-left: 20px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.screen-header__btn:hover {
+  opacity: 0.7;
+}
