@@ -11,3 +11,32 @@
   display: flex;
   justify-content: space-between;
 }
+
+.nav__item {
+  position: relative;
+}
+
+.nav__nontification {
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.nav__item:nth-child(2) .nav__nontification {
+  font-size: 30px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -8px;
+  left: 20px;
+}
+
+.nav__item:last-child .nav__nontification {
+  width: 6px;
+  height: 6px;
+  top: -4px;
+  left: 34px;
+}
