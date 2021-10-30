@@ -3,6 +3,7 @@
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -20,4 +21,5 @@ body {
   background-color: #121212;
   color: #eeeeee;
   font-family: "sandoll";
+  height: 1000vh;
 }
