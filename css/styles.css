@@ -5,9 +5,11 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 @font-face {
   font-family: "sandoll";
@@ -19,8 +21,15 @@
 }
 
 body {
-  background-color: #121212;
+  background-color: var(--black);
   color: #eeeeee;
   font-family: "sandoll";
   height: 1000vh;
+}
+
+main {
+  position: absolute;
+  top: 12%;
+  padding: 0 20px;
+  width: 100%;
 }
