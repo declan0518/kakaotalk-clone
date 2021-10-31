@@ -21,14 +21,26 @@
 
 .login-form__input {
   padding: 20px 4px;
-  border-radius: 4px;
   margin-bottom: 10px;
   border: none;
+  background-color: inherit;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.6);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-form__input:focus {
+  border-bottom-color: rgba(256, 256, 256, 1);
+}
+
+.login-form__input:focus::placeholder {
+  opacity: 0;
 }
 
 .login-form__input::placeholder {
   font-size: 20px;
   opacity: 0.8;
+  color: white;
 }
 
 .login-form__btn {
